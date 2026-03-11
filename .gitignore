@@ -1,0 +1,11 @@
+build/
+src/obj/
+src/bin/
+*.user
+.vs/
+logs/
+temp/
+.vscode/
+docs/
+CLAUDE.md
+Directory.Build.props.user

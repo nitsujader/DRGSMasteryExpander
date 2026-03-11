@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- Override this in Directory.Build.props.user for your local game path -->
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Survivor</GameDir>
+  </PropertyGroup>
+  <Import Project="Directory.Build.props.user" Condition="Exists('Directory.Build.props.user')" />
+</Project>
